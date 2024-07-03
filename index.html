@@ -447,10 +447,10 @@
 
 							<form action="#" class="row g-3">
 								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
+									<input id="name" type="text" class="form-control" placeholder="Enter your name">
 								</div>
 								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
+									<input id="answer" type="text" class="form-control" placeholder="宇宙への究極の答え">
 								</div>
 								<div class="col-auto">
 									<button class="btn btn-primary">
@@ -541,6 +541,13 @@
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/tiny-slider.js"></script>
 		<script src="js/custom.js"></script>
+	<script type="text/javascript">
+		var name = document.querySelector("#name")
+		var answer = document.querySelector("#answer")
+		if ((name === "熊鑫") || (answer === 42)){
+
+		}
+	</script>
 	</body>
 
 </html>
